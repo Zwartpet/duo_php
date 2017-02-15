@@ -1,0 +1,22 @@
+{
+  "name": "duo_php",
+  "homepage": "http://www.duosecurity.com",
+  "authors": [
+    "duosecurity"
+  ],
+  "description": "Multi-factor authentication tool",
+  "main": "Duo-Web-V2.js",
+  "keywords": [
+    "duo",
+    "php"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
