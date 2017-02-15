@@ -214,10 +214,10 @@ window.Duo = (function(document, window) {
             }
 
             if (options.iframe) {
-                if ('tagName' in options.iframe) {
-                    iframe = options.iframe;
-                } else if (typeof options.iframe === 'string') {
+                if (typeof options.iframe === 'string') {
                     iframeId = options.iframe;
+                } else if ('tagName' in options.iframe) {
+                    iframe = options.iframe;
                 }
             }
 
