@@ -14,8 +14,13 @@
   "private": true,
   "ignore": [
     "**/.*",
+    "*.php",
+    "*.xml",
+    "composer.*",
     "node_modules",
     "bower_components",
+    "demos",
+    "src",
     "test",
     "tests"
   ]
